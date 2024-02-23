@@ -1,6 +1,7 @@
 [build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "spotify_rsm2"
 authors = [
@@ -16,5 +17,3 @@ readme = "README.md"
 classifiers = [
     "License :: OSI Approved :: MIT License",
 ]
-
-
