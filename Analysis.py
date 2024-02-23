@@ -12,7 +12,7 @@ import os
 
 
 dirname = os.path.dirname(__file__)
-logging.basicConfig (level = logging.INFO, filename=os.path.join(dirname,'../../logging.log'))
+logging.basicConfig (level = logging.INFO, filename=os.path.join(dirname,'logging.log'))
 
 
 class Analysis:
@@ -24,8 +24,8 @@ class Analysis:
 
         
 
-        CONFIG_PATHS = [os.path.join(dirname,'../../configs/system_config.yml'), 
-                        os.path.join(dirname,'../../configs/user_config.yml'),]
+        CONFIG_PATHS = [os.path.join(dirname,'configs/system_config.yml'), 
+                        os.path.join(dirname,'configs/user_config.yml'),]
 
 
         # add the analysis config to the list of paths to load
