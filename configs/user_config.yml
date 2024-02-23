@@ -1,0 +1,22 @@
+# Plotting configuration
+columns_for_corr: ['popularity'
+                    , 'danceability'
+                    , 'energy'
+                    , 'speechiness'
+                    , 'acousticness'
+                    , 'instrumentalness'
+                    , 'tempo'
+                    , 'valence']
+
+annotate_heatmap: False
+
+
+corr_plot_title: 'Playlist Data Correlation'
+bar_plot_color : 'g' # verwrites the system_config
+endge_color : 'b'
+
+strip_plot_title: 'Single Vs Album Analysis'
+bar_plot_save_name: 'artists_bar_plot.pdf'
+3d_colormap: "rocket"
+
+topicname: 'spotify_rsm'
