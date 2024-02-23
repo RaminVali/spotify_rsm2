@@ -12,7 +12,8 @@ import os
 
 
 dirname = os.path.dirname(__file__)
-logging.basicConfig (level = logging.INFO, filename=os.path.join(dirname,'logging.log'))
+os.mkdir('logs')
+logging.basicConfig (level = logging.INFO, filename=os.path.join(dirname,'logs/logging.log'))
 
 
 class Analysis:
