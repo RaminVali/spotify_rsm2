@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "spotify_rsm2"
+authors = [
+    {name = "Ramin Vali", email = "r.vali@ieee.org"},
+    {name = "Sonia Grebenisan", email = "sonia.grebenisan@gmail.com"},
+    {name = "Melissa De Moya", email =  "melidemoya@gmail.com"},
+]
+description = "Team package for DSI BRS Assignment"
+version = "0.1.0"
+dependencies = ["matplotlib","requests","seaborn", "pandas", "numpy","pyyaml"]
+requires-python = ">=3.10.0"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+
+
