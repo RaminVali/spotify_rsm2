@@ -83,7 +83,7 @@ def artists_bar_plot(df, img_path, config):
     '''
     artists = df.artists.value_counts(ascending=True)[-11:].to_frame() # plot the top 10 most represented
     fig, ax = plt.subplots()
-    ax.barh(artists.index, artists['count'], color = config['bar_plot_color'], edgecolor = config['endge_color'])
+    ax.barh(artists.index, artists, color = config['bar_plot_color'], edgecolor = config['endge_color'])
     ax.set_title('Top 10 Represented Artists in the Playlist')
     ax.set_xlabel('Number of tracks by the artist in the playlist')
     plt.savefig(img_path+config['bar_plot_save_name'])

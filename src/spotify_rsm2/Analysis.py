@@ -105,8 +105,11 @@ class Analysis:
             os.mkdir(save_path)
         plot_data.plot_data(self.data, save_path, self.config)
         plt.show()
+        plt.figure
         plt.show()
+        plt.figure
         plt.show()
+        plt.figure
         plt.show()
 
 
